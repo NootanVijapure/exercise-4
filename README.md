@@ -1,38 +1,24 @@
-# DDL exercise
-Creating Tables:
-Create a table named Movies with the following columns:
-movie_id (integer)
-title (varchar, maximum length 100)
-director (varchar, maximum length 50)
-release_year (integer)
-genre (varchar, maximum length 50)
+# write steps as below and make a document to refer in future
+1. write a command to update (sudo apt update)
+2. write a command to upgrade
+3. write a command to install sql server
+4. write a command to  install sql client
+5. write a command to check my sql version
+6. write a command to start mysql
+7. write a command to stop mysql
+8. write a command to restart mysql
+9. write a command to start sql editor to write queries
+10. write a command to create database
+11. write a command to create user
+12. write a command to grant all permisiion for that user on specific database
+13. write a command to show all grants for specific user
+14. write a command to create database
+15. write a command to create table
+16. write a command to insert values in table
+17. write a command to display total number of tables
+18. write a command to display total number of databases
+19. write a command to get all values from particular table
+20. write a command to show number of antries
+21. write a command to alter the table
+    
 
-Altering Tables:
-Alter the Movies table to add a new column named rating of type decimal(3, 1).
-
-Dropping Tables:
-Create a new table named Students with columns:
-
-student_id (integer)
-student_name (varchar, maximum length 50)
-age (integer)
-grade (varchar, maximum length 2)
-Then, drop the Students table.
-
-Truncating Tables:
-Create a table named Events with columns:
-
-event_id (integer)
-event_name (varchar, maximum length 100)
-date (date)
-location (varchar, maximum length 100)
-Insert some sample data into the Events table. Once done, truncate the table to remove all records while keeping the table structure intact.
-
-Renaming Tables:
-Create a table named Restaurants with columns:
-
-restaurant_id (integer)
-name (varchar, maximum length 50)
-cuisine (varchar, maximum length 50)
-location (varchar, maximum length 100)
-Rename the table to DiningSpots.
